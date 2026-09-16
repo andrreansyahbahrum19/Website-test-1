@@ -1,0 +1,166 @@
+{
+  "name": "Repubblica Architectural Design Tokens",
+  "version": "1.0.0",
+  "description": "Figma Tokens / Variables format for Repubblica Surfaces & Tapware (Design System)",
+  "color": {
+    "brand": {
+      "oxblood": {
+        "value": "#5C0202",
+        "type": "color",
+        "description": "Primary architectural action, trust bars, CTA buttons"
+      },
+      "brick": {
+        "value": "#7A1A10",
+        "type": "color",
+        "description": "Hover state for oxblood, borders on dark elements"
+      },
+      "plum-black": {
+        "value": "#2B0E10",
+        "type": "color",
+        "description": "Deep background for footer, newsletter and trade portal"
+      },
+      "blush": {
+        "value": "#DFB3A5",
+        "type": "color",
+        "description": "Accent text on dark grounds, subheadings"
+      }
+    },
+    "neutral": {
+      "paper": {
+        "value": "#F4F2EF",
+        "type": "color",
+        "description": "Main canvas background (unbleached paper tint)"
+      },
+      "surface": {
+        "value": "#FBFAF8",
+        "type": "color",
+        "description": "Card backgrounds, modal surfaces, inputs"
+      },
+      "line": {
+        "value": "#DCD6CE",
+        "type": "color",
+        "description": "1px structural hairline dividers and grid borders"
+      },
+      "placeholder": {
+        "value": "#EFECE6",
+        "type": "color",
+        "description": "Image placeholder background"
+      }
+    },
+    "text": {
+      "ink": {
+        "value": "#1C1B1B",
+        "type": "color",
+        "description": "Primary typography, headings, high contrast text"
+      },
+      "taupe": {
+        "value": "#6B6259",
+        "type": "color",
+        "description": "Secondary typography, unit suffixes (/m2), specs"
+      },
+      "light": {
+        "value": "#F4F2EF",
+        "type": "color",
+        "description": "Typography on dark surfaces (oxblood/plum)"
+      }
+    },
+    "status": {
+      "success": {
+        "value": "#3F6B4A",
+        "type": "color",
+        "description": "In stock indicators, verified badges"
+      },
+      "alert": {
+        "value": "#A8681F",
+        "type": "color",
+        "description": "Lead time notice, made to order status"
+      }
+    }
+  },
+  "spacing": {
+    "2xs": { "value": "2px", "type": "spacing" },
+    "xs": { "value": "4px", "type": "spacing" },
+    "sm": { "value": "8px", "type": "spacing" },
+    "md": { "value": "12px", "type": "spacing" },
+    "lg": { "value": "16px", "type": "spacing" },
+    "xl": { "value": "24px", "type": "spacing" },
+    "2xl": { "value": "32px", "type": "spacing" },
+    "3xl": { "value": "48px", "type": "spacing" },
+    "4xl": { "value": "64px", "type": "spacing" }
+  },
+  "borderRadius": {
+    "sharp": { "value": "0px", "type": "borderRadius" },
+    "subtle": { "value": "2px", "type": "borderRadius", "description": "Standard buttons, architectural chips" },
+    "card": { "value": "4px", "type": "borderRadius" },
+    "pill": { "value": "9999px", "type": "borderRadius", "description": "Floating sample pill, round swatches" }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": { "value": "Suisse Grotesque, Plus Jakarta Sans, Inter, sans-serif", "type": "fontFamilies" },
+      "serif": { "value": "Playfair Display, Cormorant Garamond, serif", "type": "fontFamilies" },
+      "mono": { "value": "JetBrains Mono, monospace", "type": "fontFamilies" }
+    },
+    "display-hero": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "500",
+      "fontSize": "48px",
+      "lineHeight": "1.1",
+      "letterSpacing": "-0.02em",
+      "textCase": "uppercase"
+    },
+    "display-hero-accent": {
+      "fontFamily": "{typography.fontFamily.serif}",
+      "fontWeight": "400",
+      "fontSize": "56px",
+      "lineHeight": "1.1",
+      "fontStyle": "italic",
+      "textCase": "lowercase"
+    },
+    "h1": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "500",
+      "fontSize": "32px",
+      "lineHeight": "1.15",
+      "letterSpacing": "-0.015em",
+      "textCase": "uppercase"
+    },
+    "h2": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "500",
+      "fontSize": "26px",
+      "lineHeight": "1.2",
+      "letterSpacing": "-0.01em",
+      "textCase": "uppercase"
+    },
+    "h3": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "600",
+      "fontSize": "18px",
+      "lineHeight": "1.3",
+      "letterSpacing": "+0.04em",
+      "textCase": "uppercase"
+    },
+    "body-regular": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "400",
+      "fontSize": "13.5px",
+      "lineHeight": "1.55",
+      "letterSpacing": "0"
+    },
+    "body-small": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "400",
+      "fontSize": "12px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0"
+    },
+    "caption-eyebrow": {
+      "fontFamily": "{typography.fontFamily.sans}",
+      "fontWeight": "600",
+      "fontSize": "11px",
+      "lineHeight": "1.2",
+      "letterSpacing": "+0.16em",
+      "textCase": "uppercase"
+    }
+  }
+}
